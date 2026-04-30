@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  margin: 20px 0;
+}
+#reader {
+  display: none;
+}
+#status {
+  margin: 15px 0;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
