@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asistencia Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Registro de Asistencia</h1>
+  <button id="startScanBtn">📷 Escanear QR</button>
+  <div id="reader" style="width: 300px; margin: 20px auto;"></div>
+  <div id="status"></div>
+
+  <h2>Asistencias de hoy</h2>
+  <ul id="attendanceList"></ul>
+
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
